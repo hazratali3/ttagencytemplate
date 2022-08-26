@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LETS TRAVEL NOW  </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo">LETS TRAVEL</a>
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="packages.html">PACKAGES</a>
+        <a href="services.html">SERVICES</a>
+        <a href="book.html">BOOKING</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="#">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" style="border-top:none;border-left: none;border-right: none;border-bottom: 1px solid black;">
+        <input type="password" class="box" placeholder="enter your password" style="border-top:none;border-left: none;border-right: none;border-bottom: 1px solid black;">
+        <button type="submit" value="login" class="login">Login</button>
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is Everything</h3>
+        <p>Explore the world with us, we are the best</p>
+        <a href="#" class="btn">Explore now</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/mainvideo_1.mp4"></span>
+        <span class="vid-btn" data-src="images/mainvideo_4.mp4"></span>
+        <span class="vid-btn" data-src="images/mainvideo_3.mp4"></span>
+        <span class="vid-btn" data-src="images/mainvideo_2.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="images/mainvideo_1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<!-- home section ends -->
+
+<!-- contact section starts  -->
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <form action="https://formspree.io/f/xpznwjvy" method="POST">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="your contact no">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="type your query" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="SEND">
+        </form>
+        <div class="image">
+            <img src="images/contact_image.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium, sed officia fuga distinctio quo delectus provident. Qui, tempore commodi?</p>
+        </div>
+       <div class="box">
+            <h3>follow us</h3>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">facebook</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> Made with &hearts; by <span> Hazrat Ali  </span> </h1>
+</section>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
