@@ -95,14 +95,14 @@
     <div class="row">
         <form action="https://formspree.io/f/xpznwjvy" method="POST">
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input type="text" placeholder="name" required>
+                <input type="email" placeholder="email" required>
             </div>
             <div class="inputBox">
-                <input type="number" placeholder="your contact no">
-                <input type="text" placeholder="subject">
+                <input type="number" name="contact" placeholder="your contact no">
+                <input type="text" name="subject" placeholder="subject">
             </div>
-            <textarea placeholder="type your query" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="type your query" name="message" id="" cols="30" rows="10" required></textarea>
             <input type="submit" class="btn" value="SEND">
         </form>
         <div class="image">
